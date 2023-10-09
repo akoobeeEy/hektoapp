@@ -6,12 +6,12 @@ export  const Navbar = () => {
     <div className="py-2 bg-white">
       <div className="container mx-auto">
         <div className="flex justify-between">
-            <div className="flex gap-[88px] items-center">
-              <Link className="text-3xl font-bold text-titleColor ">
+            <div className="flex flex-wrap gap-10 md:gap-20 lg:gap-[88px] items-center">
+              <Link to={"/"} className="text-3xl font-bold text-titleColor ">
                 <h1 className="duration-200 hover:-translate-y-1">Hekto</h1>
               </Link>
-              <div className="flex gap-8">
-                <Link>
+              <div className="flex flex-wrap gap-8">
+                <Link to={"/"}>
                   <p className="navLink">
                     Home
                   </p>

@@ -3,10 +3,10 @@ import { Navbar } from "./navbar/Navbar"
 
 export const Header = () => {
   return (
-    <div>
+    <header>
       <HeaderTop/>
       <Navbar/>
-    </div>
+    </header>
   )
 }
 

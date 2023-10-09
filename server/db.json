@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Shape Chair",
+      "description": "Code - Y523201",
+      "price": "42.00",
+      "image": "https://www.picpng.com/_next/image?url=https%3A%2F%2Fcdn.picpng.com%2Fchair%2Fsmall%2Fshape-chair-34723.png&w=1920&q=100",
+      "lorem": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, laborum quas expedita beatae distinctio doloribus."
+    },
+    {
+      "id": 2,
+      "title": "Armchair  Interior Home",
+      "description": "Code - Y523309",
+      "price": "52.00",
+      "image": "https://www.picpng.com/_next/image?url=https%3A%2F%2Fcdn.picpng.com%2Farmchair%2Fsmall%2Farmchair-furniture-interior-home-42864.png&w=1920&q=100",
+      "lorem": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, laborum quas expedita beatae distinctio doloribus."
+    },
+    {
+      "id": 3,
+      "title": "Painting Chair",
+      "description": "Code - T023291",
+      "price": "194.03",
+      "image": "https://www.picpng.com/_next/image?url=https%3A%2F%2Fcdn.picpng.com%2Fchair%2Fsmall%2Fpainting-chair-34725.png&w=1920&q=100",
+      "lorem": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, laborum quas expedita beatae distinctio doloribus."
+    },
+    {
+      "id": 4,
+      "title": "Chair  Moulded ",
+      "description": "Code - Y502201",
+      "price": "58.00",
+      "image": "https://www.picpng.com/_next/image?url=https%3A%2F%2Fcdn.picpng.com%2Fchair%2Fsmall%2Fchair-furniture-moulded-plastic-104471.png&w=1920&q=100",
+      "lorem": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, laborum quas expedita beatae distinctio doloribus."
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

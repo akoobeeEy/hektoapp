@@ -13,7 +13,7 @@ body {
 
 @layer components {
   .headTopText {
-    @apply text-white text-sm md:text-base font-normal;
+    @apply text-sm font-normal text-white md:text-base;
   }
 
   .navLink {
@@ -24,5 +24,11 @@ body {
   }
   .title{
     @apply text-titleColor font-bold text-xl md:text-[42px]
+  }
+  .footerTitle{
+    @apply text-base md:text-[22px] font-semibold text-black
+  }
+  .footerText{
+    @apply text-sm md:text-base font-normal text-footerColor
   }
 }

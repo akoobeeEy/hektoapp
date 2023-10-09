@@ -1,14 +1,14 @@
-import { Fragment } from "react"
-import { Header } from "../../components/header"
-import { Hero } from "../../components/hero"
-import { Featured } from "../../components/featured/Featured"
+import { Fragment } from "react";
+import { Hero } from "../../components/hero/Hero";
+import { Featured } from "../../components/featured";
+import LatestProducts from "../../components/latestProducts/LatestProducts";
 
 export const Home = () => {
   return (
     <Fragment>
-        <Header/>
-        <Hero/>
-        <Featured/>
+      <Hero />
+      <Featured />
+      <LatestProducts/>
     </Fragment>
-  )
-}
+  );
+};

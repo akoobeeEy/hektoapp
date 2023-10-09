@@ -17,6 +17,10 @@ export default {
         titleColor: "#151875",
         designColor: "#FB2E86",
         textColor: "#ACABC3",
+        footerColor: "#8A8FB9",
+      },
+      boxShadow:{
+        detailShadow: "0px 0px 25px 10px #F6F4FD"
       }
     },
   },
