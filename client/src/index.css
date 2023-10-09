@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .headTopText {
+    @apply text-white text-sm md:text-base font-normal;
+  }
+
+  .navLink {
+    @apply md:text-[17px] text-sm font-normal text-black hover:text-designColor duration-200  hover:-translate-y-1;
+  }
+  .button{
+    @apply py-3 px-8 bg-white border-[1px] border-gray-300 text-textColor hover:bg-designColor duration-200 hover:text-white
+  }
+  .title{
+    @apply text-titleColor font-bold text-xl md:text-[42px]
+  }
+}
